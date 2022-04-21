@@ -1,0 +1,26 @@
+.item-li{
+    padding-top: 5%;
+    list-style: none;
+}
+.task{
+    text-align: center;
+    padding: 10px;
+    border: solid black 1px;
+    display: grid;
+    grid-template-columns: 30px 100px 100px;
+    margin: 20px;
+}
+.checkbox{
+    height:25px;
+    width:25px;
+    background:white;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    border-radius:50px;
+    border: solid black 1px;
+
+}
+
+.completed{
+    background:rgb(4, 91, 4);
+}
